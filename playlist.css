@@ -18,7 +18,7 @@ main {
     width: 15%;
     height: 90vh;
     background-color:#000000;
-    padding: 2.5%;
+    padding: 2%;
 }
 
 
@@ -79,6 +79,20 @@ main {
 .sidebar .navigation ul li a:hover .img:focus {
     color: #ffffff;
 }
+
+
+.sidebar-image{
+    width: 230px;
+    height: 230px;
+    background-color: red;
+    position: relative;
+    top: 20vh;
+    
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
 
 .container {
     width: 85%;
@@ -146,15 +160,18 @@ main {
 
 .text1 {
     font-size: 20px;
+    font-family: DB Sans;
 }
 
 .text2 {
     font-size: 90px;
     font-weight: bold;
+    font-family: DB Sans;
 }
 
 .text3 {
     font-size: 18px;
+    font-family: DB Sans;
 }
 
 
@@ -171,7 +188,15 @@ main {
     overflow: hidden;
     position: relative;
     top: 0.1vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
+
+.items2>i{
+    margin: 7px;
+}
+
 
 
 
@@ -186,6 +211,7 @@ table {
     width: 100%;
     margin: 10px;
     color: #ffffff;
+    margin-left: 30px;
     font-family: DB Sans;
     font-weight: 400;
 }
@@ -195,6 +221,7 @@ td {
     padding: 8px;
     text-align: left;
     align-items: center;
+    font-family: DB Sans;
     
 }
 
