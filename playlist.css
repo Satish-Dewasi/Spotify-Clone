@@ -8,6 +8,8 @@ main {
     height: 100vh;
     background-color: blueviolet;
     display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .sidebar {
@@ -81,12 +83,19 @@ main {
 .container {
     width: 85%;
     height: 90vh;
-    /* background-color: brown; */
-    background-image: linear-gradient(to top, #121212, #868E8A);
+     background-color:#121212;
+    /* background-image: linear-gradient(to top, #121212, #868E8A); */
     position: absolute;
     left: 15%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 
+}
+
+.upper-main{
+    height: 42vh;
+    background-image: linear-gradient(to bottom right, #42514A, #88A59F);
 }
 
 .slider {
@@ -97,6 +106,8 @@ main {
     padding-inline: 2%;
     position: relative;
     right: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .items1 {
@@ -107,6 +118,8 @@ main {
     display: flex;
     align-items: end;
     padding: 3vh;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -114,7 +127,7 @@ main {
     width: 15%;
     height: 25vh;
     background-color: transparent;
-box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .text {
@@ -122,9 +135,13 @@ box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     height: 25vh;
     background-color: transparent;
     box-sizing: border-box;
-    padding: 1%;
+    padding: 2%;
     overflow: hidden;
     align-items: start;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    font-family: DB Sans;
 }
 
 .text1 {
@@ -150,6 +167,10 @@ box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     background-color: #222323;
     padding: 3%;
     padding-inline: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    top: 0.1vh;
 }
 
 
@@ -206,8 +227,12 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding-inline: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
+
+
 
 .footer-items {
     background-color: #000000;
@@ -238,6 +263,8 @@ footer {
     line-height: 26px;
     letter-spacing: -0.02em;
     padding: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -261,6 +288,8 @@ footer {
     overflow: hidden;
     box-sizing: border-box;
     background-color: transparent;
+    box-sizing: border-box;
+     overflow: hidden;
 }
 
 .fa-solid:hover {

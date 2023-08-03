@@ -78,6 +78,8 @@ header {
    height: 80vh;
    background-color: #000000;
    padding: 2.5%;
+   box-sizing: border-box;
+   overflow: hidden;
 }
 
 .sidebar .navigation {
@@ -211,6 +213,8 @@ header {
     letter-spacing: +3%;
     padding-inline: 5%;
     overflow: hidden;
+    box-sizing: border-box;
+    
 }
 
 .upper-container {
@@ -225,6 +229,7 @@ header {
     padding-top: 1%;
     padding-inline: 5%;
     box-sizing: border-box;
+    overflow: hidden;
 
 
 }
@@ -249,6 +254,8 @@ header {
     line-height: 26px;
     letter-spacing: -0.02em;
     padding: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -324,6 +331,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding-inline: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -356,6 +365,8 @@ footer {
     line-height: 26px;
     letter-spacing: -0.02em;
     padding: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -379,6 +390,8 @@ footer {
     overflow: hidden;
     box-sizing: border-box;
     background-color: transparent;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .fa-solid:hover {
